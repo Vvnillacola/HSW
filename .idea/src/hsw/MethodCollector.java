@@ -10,6 +10,7 @@ public class MethodCollector {
         // Erste Methode
         System.out.println("Method " + methodCounter + ":" );
         aFirstMethod();
+        aVkMethod();
         methodCounter++;
 // hier kann die nächste Methode folgen.
     }
@@ -17,6 +18,9 @@ public class MethodCollector {
 
     private static void aFirstMethod() {
         System.out.println("MethodCollector.aFirstMethod: This method has been created by ");
+    }
+    private static void aVkMethod(){
+        System.out.println("MethodCollector.aHeisobtMethod: This method has been created by Vk");
     }
 
 

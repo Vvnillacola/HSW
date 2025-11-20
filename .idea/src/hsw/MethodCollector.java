@@ -14,6 +14,8 @@ public class MethodCollector {
         methodCounter++;
         eddyMethod();
         methodCounter++;
+        methodJonas();
+        methodCounter++;
 // hier kann die nächste Methode folgen.
         marcelKeckerMethod();
         ausgabe();
@@ -26,14 +28,18 @@ public class MethodCollector {
         System.out.println("MethodCollector.aFirstMethod: This method has been created by ");
     }
 
+    private static void methodJonas() {
+        System.out.println("MethodCollector.methodJonas: This method has been created by Jonas");
+    }
     private static void eddyMethod(){
         System.out.println("MethodCollector.eddyMethod: This method has been created by Eddy.");
+    }
     private static void marcelKeckerMethod() {
         System.out.println("This method has been created by Marcel Kecker");
-      
+    }
     private static void ausgabe() {
         System.out.println("Hallo Welt!");
-      
+    } 
     private static void aHeisobtMethod() {
         System.out.println("MethodCollector.aHeisobtMethod: This method has been created by heisob");
     }

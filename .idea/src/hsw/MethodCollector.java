@@ -10,6 +10,7 @@ public class MethodCollector {
         // Erste Methode
         System.out.println("Method " + methodCounter + ":" );
         aFirstMethod();
+        aVkMethod();
         danielsMethod();
         aLastMethod();
         methodCounter++;
@@ -26,6 +27,7 @@ public class MethodCollector {
         ausgabe();
         aHeisobtMethod();
         methodCounter++;
+        henrysMethod();
     }
 
     private static void Leo()
@@ -35,10 +37,12 @@ public class MethodCollector {
     private static void aFirstMethod() {
         System.out.println("MethodCollector.aFirstMethod: This method has been created by ");
     }
+    private static void aVkMethod(){
+        System.out.println("MethodCollector.aHeisobtMethod: This method has been created by Vk");
+    }
     private static void danielsMethod() {
         System.out.println("MethodCollector.danielsMethod: This method has been created by Daniel");
     }
-
     private static void methodByMarcel() {
         System.out.println("Test Methode von Marcel");
     }
@@ -51,17 +55,18 @@ public class MethodCollector {
     private static void marcelKeckerMethod() {
         System.out.println("This method has been created by Marcel Kecker");
     }
+
+    private static void henrysMethod() {
+        System.out.println("This method has been created by Henry");
+    }
+
     private static void ausgabe() {
         System.out.println("Hallo Welt!");
-    } 
+    }
+
     private static void aHeisobtMethod() {
         System.out.println("MethodCollector.aHeisobtMethod: This method has been created by heisob");
     }
-
-
-
-}
-}
     private static void aLastMethod() {
         System.out.println("MethodCollector.aFirstMethod: This method has been created by BenH@sstEMails");
     }

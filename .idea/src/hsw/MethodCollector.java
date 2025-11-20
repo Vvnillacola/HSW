@@ -10,6 +10,7 @@ public class MethodCollector {
         // Erste Methode
         System.out.println("Method " + methodCounter + ":" );
         aFirstMethod();
+        danielsMethod();
         aLastMethod();
         methodCounter++;
         eddyMethod();
@@ -29,6 +30,9 @@ public class MethodCollector {
 
     private static void aFirstMethod() {
         System.out.println("MethodCollector.aFirstMethod: This method has been created by ");
+    }
+    private static void danielsMethod() {
+        System.out.println("MethodCollector.danielsMethod: This method has been created by Daniel");
     }
 
     private static void methodByMarcel() {

@@ -26,7 +26,7 @@ public class MethodCollector {
 
 
     private static void aFirstMethod() {
-        System.out.println("Tot");
+         System.out.println("MethodCollector.aFirstMethod: This method has been created by ");
     }
 
     private static void methodJonas() {

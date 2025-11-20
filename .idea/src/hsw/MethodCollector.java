@@ -10,6 +10,7 @@ public class MethodCollector {
         // Erste Methode
         System.out.println("Method " + methodCounter + ":" );
         aFirstMethod();
+        danielsMethod();
         methodCounter++;
 // hier kann die nächste Methode folgen.
     }
